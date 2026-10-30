@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ASOLDAR S.A.S. | Alquiler de equipos para soldadura industrial</title>
+  <meta name="description" content="Alquiler de equipos para soldadura industrial en Tolú, Sucre.">
+
+  <!-- Fuente del diseño -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+  <!-- Estilos: base, estructura y componentes -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- ========== Encabezado ========== -->
+  <header class="site-header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__logo" aria-label="ASOLDAR S.A.S. - Inicio">
+        <img src="assets/img/logo.png" alt="ASOLDAR S.A.S.">
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Menú principal">
+        <ul class="main-nav__list">
+          <li><a href="#inicio" class="is-active"><i class="fi fi-rr-home main-nav__icon" aria-hidden="true"></i>Inicio</a></li>
+          <li><a href="nosotros.html"><i class="fi fi-rr-users-alt main-nav__icon" aria-hidden="true"></i>Nosotros</a></li>
+          <li><a href="#servicios"><i class="fi fi-rr-tool-box main-nav__icon" aria-hidden="true"></i>Servicios</a></li>
+          <li><a href="products.html"><i class="fi fi-rr-boxes main-nav__icon" aria-hidden="true"></i>Equipos</a></li>
+          <li><a href="#contacto"><i class="fi fi-rr-envelope main-nav__icon" aria-hidden="true"></i>Contacto</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn--primary btn--small btn--blue btn--arrow">Solicita tu cotización</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== Banner ========== -->
+    <section id="inicio" class="hero">
+      <div class="container hero__content">
+        <h1 class="hero__title">
+          <span class="hero__title--line">Alquiler de equipos para</span>
+          <span class="hero__title--accent">soldadura industrial</span>
+        </h1>
+        <p class="hero__subtitle">Ingeniería, energía y potencia a tu alcance.</p>
+        <div class="hero__actions">
+          <a href="#equipos" class="btn btn--primary btn--blue btn--arrow">Ver nuestro portafolio</a>
+          <a href="#contacto" class="btn btn--outline">Contáctanos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Beneficios (montados sobre el banner) ========== -->
+    <section id="servicios" class="benefits" aria-label="Beneficios">
+      <ul class="container benefits__list">
+        <li class="benefit-card">
+          <img src="assets/icons/certified.svg" alt="" width="40" height="40">
+          <p>Equipo<br>certificado</p>
+        </li>
+        <li class="benefit-card">
+          <img src="assets/icons/delivery.svg" alt="" width="40" height="40">
+          <p>Entrega rápida<br>en Tolú Sucre</p>
+        </li>
+        <li class="benefit-card">
+          <img src="assets/icons/support.svg" alt="" width="40" height="40">
+          <p>Soporte<br>técnico</p>
+        </li>
+        <li class="benefit-card">
+          <img src="assets/icons/advisory.svg" alt="" width="40" height="40">
+          <p>Asesoría<br>personalizada</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ========== Portafolio ========== -->
+    <section id="equipos" class="portfolio">
+      <div class="container">
+        <h2 class="section-title">Explora nuestro portafolio de equipos</h2>
+        <!-- Tarjetas de producto (estáticas) -->
+        <div id="product-grid" class="product-grid">
+      <article class="product-card">
+        <div class="product-card__img-wrap">
+          <img class="product-card__img" src="assets/img/products/allanadora.png" alt="Allanadora" loading="lazy">
+        </div>
+        <h3 class="product-card__name">Allanadora</h3>
+        <button class="btn btn--primary btn--blue btn--arrow" type="button" data-name="Allanadora" data-image="assets/img/products/allanadora.png" data-specs='["Potencia: 5.5 HP", "Motor: gasolina 4 tiempos", "Diámetro de trabajo: 900 mm", "Peso: 75 kg"]'>Ver detalles</button>
+      </article>
+      <article class="product-card">
+        <div class="product-card__img-wrap">
+          <img class="product-card__img" src="assets/img/products/cilindros.png" alt="Cilindros" loading="lazy">
+        </div>
+        <h3 class="product-card__name">Cilindros</h3>
+        <button class="btn btn--primary btn--blue btn--arrow" type="button" data-name="Cilindros" data-image="assets/img/products/cilindros.png" data-specs='["Capacidad: 50 L", "Presión de trabajo: 200 bar", "Material: acero", "Válvula de seguridad incluida"]'>Ver detalles</button>
+      </article>
+      <article class="product-card">
+        <div class="product-card__img-wrap">
+          <img class="product-card__img" src="assets/img/products/cortadora.png" alt="Cortadora" loading="lazy">
+        </div>
+        <h3 class="product-card__name">Cortadora</h3>
+        <button class="btn btn--primary btn--blue btn--arrow" type="button" data-name="Cortadora" data-image="assets/img/products/cortadora.png" data-specs='["Potencia: 13 HP", "Diámetro de disco: 350 mm", "Profundidad de corte: 120 mm", "Peso: 95 kg"]'>Ver detalles</button>
+      </article>
+      <article class="product-card">
+        <div class="product-card__img-wrap">
+          <img class="product-card__img" src="assets/img/products/mezclador.png" alt="Mezclador" loading="lazy">
+        </div>
+        <h3 class="product-card__name">Mezclador</h3>
+        <button class="btn btn--primary btn--blue btn--arrow" type="button" data-name="Mezclador" data-image="assets/img/products/mezclador.png" data-specs='["Capacidad: 150 L", "Motor: eléctrico 2 HP", "Voltaje: 220 V", "Peso: 60 kg"]'>Ver detalles</button>
+      </article>
+      <article class="product-card">
+        <div class="product-card__img-wrap">
+          <img class="product-card__img" src="assets/img/products/sierra_amarilla.png" alt="Sierra amarilla" loading="lazy">
+        </div>
+        <h3 class="product-card__name">Sierra amarilla</h3>
+        <button class="btn btn--primary btn--blue btn--arrow" type="button" data-name="Sierra amarilla" data-image="assets/img/products/sierra_amarilla.png" data-specs='["Potencia: 2200 W", "Diámetro de disco: 305 mm", "Velocidad: 4500 rpm", "Peso: 18 kg"]'>Ver detalles</button>
+      </article>
+      <article class="product-card">
+        <div class="product-card__img-wrap">
+          <img class="product-card__img" src="assets/img/products/sierra_azul.png" alt="Sierra azul" loading="lazy">
+        </div>
+        <h3 class="product-card__name">Sierra azul</h3>
+        <button class="btn btn--primary btn--blue btn--arrow" type="button" data-name="Sierra azul" data-image="assets/img/products/sierra_azul.png" data-specs='["Potencia: 1800 W", "Diámetro de disco: 255 mm", "Velocidad: 5000 rpm", "Peso: 15 kg"]'>Ver detalles</button>
+      </article>
+        </div>
+        <div class="portfolio__more">
+          <a href="products.html" class="btn btn--primary btn--blue btn--arrow">Ver todos los productos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Sobre nosotros ========== -->
+    <section id="nosotros" class="about">
+      <div class="container about__inner">
+        <div class="about__text">
+          <h2 class="about__title">SOBRE NOSOTROS</h2>
+          <p class="about__lead">Equipos propios y atención directa para las necesidades de cada proyecto.</p>
+          <p>Constituida en 2022, ASOLDAR S.A.S. está fortaleciendo su operación. Actualmente se enfoca en el alquiler de máquinas de soldar y extensiones eléctricas, con entrega directa a sus clientes.</p>
+          <a class="btn btn--primary btn--blue btn--arrow about__more" href="nosotros.html">Conoce más</a>
+        </div>
+
+        <!-- Tarjeta tipo foto instantánea con el logo -->
+        <figure class="polaroid">
+          <span class="polaroid__tape" aria-hidden="true"></span>
+          <div class="polaroid__photo">
+            <img src="assets/img/logo.png" alt="Logo de ASOLDAR S.A.S.">
+          </div>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer id="contacto" class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#inicio" class="footer__brand-link" aria-label="ASOLDAR S.A.S. - Inicio">
+          <img src="assets/img/logo.png" alt="ASOLDAR S.A.S.">
+        </a>
+        <p class="footer__tagline">Alquiler de equipos para soldadura industrial, con respaldo técnico y atención cercana.</p>
+      </div>
+
+      <nav class="footer__col footer__nav" aria-label="Enlaces del pie de página">
+        <h3 class="footer__title">Explora</h3>
+        <ul>
+          <li><a href="#inicio"><i class="fi fi-rr-home footer__nav-icon" aria-hidden="true"></i>Inicio</a></li>
+          <li><a href="nosotros.html"><i class="fi fi-rr-users-alt footer__nav-icon" aria-hidden="true"></i>Nosotros</a></li>
+          <li><a href="products.html"><i class="fi fi-rr-boxes footer__nav-icon" aria-hidden="true"></i>Productos</a></li>
+          <li><a href="#contacto"><i class="fi fi-rr-envelope footer__nav-icon" aria-hidden="true"></i>Contacto</a></li>
+        </ul>
+      </nav>
+
+      <address class="footer__col">
+        <h3 class="footer__title">Contacto</h3>
+        <ul>
+          <li>Teléfono: <a href="tel:+573000000000">+57 300 000 0000</a></li>
+          <li>Correo: <a href="mailto:info@asoldar.com">info@asoldar.com</a></li>
+          <li>Tolú, Sucre, Colombia</li>
+        </ul>
+        <div class="footer__social">
+          <a href="https://wa.me/573000000000" target="_blank" rel="noopener" class="social-link">
+            <img src="assets/icons/whatsapp.svg" alt="" width="24" height="24"> WhatsApp
+          </a>
+          <a href="https://instagram.com/asoldar" target="_blank" rel="noopener" class="social-link">
+            <img src="assets/icons/instagram.svg" alt="" width="24" height="24"> Instagram
+          </a>
+        </div>
+      </address>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__legal">
+        <p>NIT: 901.639.266-4</p>
+        <p>&copy; <span id="year">2026</span> ASOLDAR S.A.S. Todos los derechos reservados.</p>
+        <p class="footer__attribution">Iconos de <a href="https://www.flaticon.com/uicons" target="_blank" rel="noopener">Flaticon</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

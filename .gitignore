@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+*.docx
+node_modules/
+dist/
